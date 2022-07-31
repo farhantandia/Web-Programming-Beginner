@@ -18,26 +18,49 @@
             <div class="button">8</div>
             <div class="button">9</div>
             <div class="button negative">+/-</div>
+            <div class="button decimal">1/x</div>
         </div>
         <div class="flex-container-row">
             <div class="button">4</div>
             <div class="button">5</div>
             <div class="button">6</div>
             <div class="button operator">-</div>
+            <div class="button operator">/</div>
         </div>
         <div class="flex-container-row">
             <div class="button">1</div>
             <div class="button">2</div>
             <div class="button">3</div>
             <div class="button operator">+</div>
+            <div class="button operator">*</div>
         </div>
         <div class="flex-container-row">
             <div class="button clear">CE</div>
             <div class="button">0</div>
-            <div class="button equals double">=</div>
+            <div class="button">00</div>
+            <div class="button point">.</div>
+            <div class="button equals">=</div>
             <!-- <div class="button"></div> -->
           </div>
     </div>
+
+    <div class="history card">
+        <h2>Riwayat Perhitungan</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Angka Pertama</th>
+                    <th>Operator</th>
+                    <th>Angka Kedua</th>
+                    <th>Hasil</th>
+                </tr>
+            </thead>
+            <tbody id="historyList"></tbody>
+        </table>
+    </div>
+  
+
+    <script src="assets/storage.js"></script>
     <script src="assets/calculator.js"></script>
 </body>
 

@@ -19,7 +19,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     flex-direction: column;
   
     /* properti pendukung */
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     text-align: right;
  }
@@ -30,11 +30,11 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    padding: 30px;
+    padding: 20px;
     margin-top: 20px;
   }
  .button {
-    flex-basis: 25%;
+    flex-basis:50%;
    
     /* properti pendukung */
     font-size: 1.5em;
@@ -44,16 +44,59 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
     cursor: pointer;
  }
+
+ .button:hover {
+   font-weight: bold;
+}
  @media screen and (max-width: 513px) {
     .button {
         padding: 10px;
+        font-size:1em;
     }
  }
+ .history {
+   width: 80%;
+   margin: 30px auto 0 auto;
+   overflow: scroll;
+}
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+   width: 100%;
+   border: 1px solid #ddd;
+}
+
  .operator,
  .negative,
- .equals {
+ .decimal,
+ .point {
    background: orange;
  }
-.double {
-    flex-basis: 50%;
+ .equals {
+   background: yellow;
  }
+.double {
+    flex-basis: 125%;
+ }
+
+th,
+td {
+   text-align: center;
+   padding: 16px;
+}
+th {
+   background-color: orange;
+   color: white;
+}
+ 
+tr:nth-child(even) {
+   background-color: #d2d2d2;
+}
+@media screen and (max-width: 513px) {
+   .button {
+       padding: 10px;
+   }
+   .history {
+       width: 100%;
+   }
+}
