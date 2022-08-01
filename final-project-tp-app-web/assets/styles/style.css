@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap');
-
+/* color reference : https://colorhunt.co/palette/1c3879607eaaeae3d2f9f5eb */
 #content {
-   float: right;
+   float: left;
    width: 75%;
 }
 
@@ -13,7 +13,7 @@
 }
 
 aside {
-   float: right;
+   float: left;
    width: 25%;
    padding-right: 20px;
 }
@@ -35,7 +35,8 @@ aside {
 }
 
 img {
-   border-radius: 5%;
+   border-radius: 0.5cm;
+   padding: 5px;
 }
 
 nav {
@@ -69,12 +70,17 @@ nav ul {
    display: flex;
    flex-direction: column;
    margin: 0 auto;
-   text-align: right;
+   text-align: left;
 }
 
 .flex-container-row {
    display: flex;
 
+}
+
+.flex-app-row{
+   
+   display: flex;
 }
 
 .store-image {
@@ -108,6 +114,21 @@ nav ul {
    width: 200px;
 }
 
+.dot2,
+.dot {
+   cursor: pointer;
+   height: 15px;
+   width: 15px;
+   margin: 0 2px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+   background-color: #717171;
+}
+
 .card {
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
    background-color: #F9F5EB;
@@ -116,6 +137,7 @@ nav ul {
    margin-top: 20px;
    margin-right: 20px;
    text-align: center;
+   border-radius: 1cm;
 
 
 
@@ -134,6 +156,7 @@ nav a:hover {
 .profile header {
    text-align: center;
 }
+
 
 header {
    display: inline;
@@ -158,7 +181,9 @@ h2 {
 h3 {
    color: #1C3879;
 }
-
+table{
+   margin: 0px auto;
+}
 footer {
    padding: 20px;
    color: white;
@@ -187,6 +212,8 @@ td {
       padding: 0;
    }
 
+
+
    .app-image {
       height: 50%;
    }
@@ -212,9 +239,9 @@ td {
    .store-image {
 
       padding-top: 30px;
-      max-height: 150px;
+      max-height: 200px;
       object-fit: fill;
-      object-position: center;
+      
    }
 
    .flex-container-row {
@@ -223,5 +250,11 @@ td {
       /* font-size: larger; */
       display: flex;
       flex-wrap: wrap;
+   }
+   .flex-app-row{
+   
+      display: flex;
+      text-align:center;
+      margin:0 auto;
    }
 }
