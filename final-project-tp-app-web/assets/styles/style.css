@@ -248,13 +248,14 @@ td {
       /* padding: 20px; */
 
       /* font-size: larger; */
-      display: flex;
+       display: flex;
       flex-wrap: wrap;
-   }
+   } 
    .flex-app-row{
    
       display: flex;
       text-align:center;
       margin:0 auto;
+      flex-wrap: wrap;
    }
 }
