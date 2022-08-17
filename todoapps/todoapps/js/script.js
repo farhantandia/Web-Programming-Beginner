@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const submitForm = document.getElementById('form');
   submitForm.addEventListener('submit', function (event) {
     event.preventDefault();
-    addTodo();
+    addBook();
   });
   if (isStorageExist()) {
     loadDataFromStorage();
@@ -31,7 +31,7 @@ document.addEventListener(RENDER_EVENT, function () {
 
   }
 });
-function addTodo() {
+function addBook() {
   const textTodo = document.getElementById('title').value;
   const timestamp = document.getElementById('date').value;
 
