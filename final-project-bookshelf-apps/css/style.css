@@ -119,7 +119,7 @@ main {
 }
 
 .search_section > form > button {
-    background-color: cornflowerblue;
+    background-color: #6495ed;
     color: white;
     border: 0;
     border-radius: 5px;
@@ -169,15 +169,36 @@ main {
     background-color: darkred;
     color: white;
 }
+.item {
+    border-radius: 16px;
+    margin-top: 16px;
+    padding: 12px 24px 12px 24px;
+    background: white;
+    display: flex;
+    align-items: center;
+    
+    border: 1px solid cornflowerblue;
+    border-radius: 10px;
+}
+.item > .inner h3 {
+    margin-bottom: unset;
+}
 
+.item > .inner p {
+    margin-top: 5px;
+}
+
+.shadow {
+    box-shadow: 0 5px 10px rgba(154, 160, 185, .05), 0 15px 40px rgba(166, 173, 201, .2);
+}
 #snackbar {
     visibility: hidden;
     min-width: 250px;
     margin-left: -125px;
-    background-color: #333;
+    background-color: rgb(121, 121, 121);
     color: #fff;
     text-align: center;
-    border-radius: 2px;
+    border-radius:20px;
     padding: 16px;
     position: fixed;
     z-index: 1;
