@@ -10,10 +10,10 @@ This is list of projects when I learn basic/beginner web programming at [Dicodin
 ## Screenshot
 
 ### Basic Web (Trend Power Website)
-<img src="https://github.com/farhantandia/Web-Programming-Beginner/blob/main/ss/basic.png" width="900"/>
+<img src="https://github.com/farhantandia/Web-Programming-Beginner/blob/main/ss/basic.png" width="700"/>
 
 ### Beginner Web (Bookshelf Website)
-<img src="https://github.com/farhantandia/Web-Programming-Beginner/blob/main/ss/bookshelf.png" width="900"/>
+<img src="https://github.com/farhantandia/Web-Programming-Beginner/blob/main/ss/bookshelf.png" width="700"/>
 
 
 
